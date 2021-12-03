@@ -1,0 +1,13 @@
+type Query {
+    subscription : Subscription
+}
+
+type Subscription {
+    updatesFor(contentIds:[String]) : ContentEvent!
+}
+
+type ContentEvent {
+    contentId : String
+    eventName : String
+    propertyNames: [String]
+}
