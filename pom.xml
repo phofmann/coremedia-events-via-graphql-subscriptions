@@ -17,9 +17,9 @@
   <properties>
     <java.version>11</java.version>
     <kotlin.version>1.3.70</kotlin.version>
-    <cm.headless-server.core.version>9999.1</cm.headless-server.core.version>
-    <cm.common.core.version>9999.1</cm.common.core.version>
-    <cm.middle.core.version>9999.1</cm.middle.core.version>
+    <cm.headless-server.core.version>2110.1</cm.headless-server.core.version>
+    <cm.common.core.version>2110.1</cm.common.core.version>
+    <cm.middle.core.version>2110.1</cm.middle.core.version>
   </properties>
 
   <dependencyManagement>
